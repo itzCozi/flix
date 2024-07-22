@@ -12,8 +12,8 @@ export function getTemplate({
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Password Protected Site</title>
-      <meta name="description" content="This site is password protected.">
+      <title>Password Entry</title>
+      <meta name="description" content="This is password protected.">
       <link rel="shortcut icon" href="https://picocss.com/favicon.ico">
 
       <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
@@ -23,8 +23,10 @@ export function getTemplate({
           display: flex;
           flex-direction: column;
           justify-content: center;
-          min-height: calc(100vh - 7rem);
+          align-items: center;
+          min-height: 100vh;
           padding: 1rem 0;
+          margin: 0 auto;
           max-width: 600px;
         }
 
