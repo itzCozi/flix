@@ -36,7 +36,7 @@ export function getTemplate({
 
         .error {
           background: #5f9ae8;
-          border-radius: 0.35em;
+          border-radius: 0.3em;
           color: #fefefe;
           padding: 0.5em;
           box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.2);
