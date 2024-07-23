@@ -50,7 +50,7 @@ export function getTemplate({
       <main>
         <article>
           <hgroup>
-            <h1>Sight Guard</h1>
+            <h1>Guard</h1>
             <h2>Enter the correct string to continue...</h2 >
           </hgroup>
           ${withError ? `<p class="error">Incorrect entry, access denied.</p>` : ''}
